@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Prehorneado - Grid</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="dist/css/prehorneado-grid.css">
+	<style>
+		.row{
+			margin-bottom: 10px;
+		}
+		.ce{
+			text-align: center;
+			color: #fff;
+			padding: 30px 5px !important;
+			font-size: 22px;
+		}
+		.row > .ce:nth-child(12n+1){
+			background-color: #e68282 !important;
+		}
+		.row > .ce:nth-child(12n+2){
+			background-color: #91a7bf !important;
+		}
+		.row > .ce:nth-child(12n+3){
+			background-color: #ed9f7d !important;
+		}
+		.row > .ce:nth-child(12n+4){
+			background-color: #9e8e9e !important;
+		}
+	</style>
+</head>
+<body>
+	<div class="row">
+		<div class="ce ce-lg-3 ce-md-4 ce-sm-6 ce-xs-12">1</div>
+		<div class="ce ce-lg-3 ce-sm-6 ce-md-4 ce-xs-12">2</div>
+		<div class="ce ce-lg-3 ce-md-4 ce-sm-6 ce-xs-12">3</div>
+		<div class="ce ce-md-4 ce-sm-6 ce-xs-12 ce-lg-3">4</div>
+	</div>
+	<div class="row">
+		<div class="ce ce-3 ce-md-6">1</div>
+		<div class="ce ce-3 ce-md-6">2</div>
+		<div class="ce ce-md-6 ce-3">3</div>
+		<div class="ce ce-3 ce-md-6 ce-xs-1">4</div>
+	</div>
+</body>
+</html>

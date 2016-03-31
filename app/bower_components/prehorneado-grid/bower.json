@@ -1,0 +1,24 @@
+{
+  "name": "prehorneado-grid",
+  "description": "La típica grilla que ordena el contenido de un sitio en columnas donde el numero de columnas depende del tamaño del browser",
+  "main": "css/prehorneado-grid.css",
+  "moduleType": [],
+  "keywords": [
+    "css"
+  ],
+  "authors": [
+    "Roberto Ignacio Carraro"
+  ],
+  "license": "MIT",
+  "homepage": "http://prehorneado.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "prehorneado-grid": "~0.0.1"
+  }
+}

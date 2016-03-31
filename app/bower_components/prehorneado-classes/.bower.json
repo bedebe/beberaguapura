@@ -1,0 +1,31 @@
+{
+  "name": "prehorneado-classes",
+  "description": "Una colección de clases css",
+  "main": "css/prehorneado-classes.css",
+  "moduleType": [],
+  "keywords": [
+    "css"
+  ],
+  "authors": [
+    "Roberto Ignacio Carraro"
+  ],
+  "license": "MIT",
+  "homepage": "http://prehorneado.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "0.0.2",
+  "_release": "0.0.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.2",
+    "commit": "a151f2ccf65efa4b808acd8c361ddcf63434a005"
+  },
+  "_source": "git://github.com/prehorneado/classes.git",
+  "_target": "0.0.2",
+  "_originalSource": "prehorneado-classes"
+}
